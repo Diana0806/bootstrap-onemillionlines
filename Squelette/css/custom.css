@@ -1,8 +1,58 @@
 /* Vos customisations des classes de Bootstrap */
 
+nav {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 330px;
+    padding-right: 330px;
 
+}
+nav ul{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
 
+    display: inline;
+    font-size: 14px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
 
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    color:dimgray;
+    text-decoration: none;
+}
+
+#home{
+    width: 100%;
+    height: 750px;
+    background-image: url("../images/hero-image.jpg");
+    background-size: 130%;
+}
+ 
+h1 {
+    padding-top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 54px;
+}
+
+p {
+    padding-top: 70px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
