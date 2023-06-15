@@ -35,7 +35,7 @@ nav a:hover{
 
 #home{
     width: 100%;
-    height: 750px;
+    height: 700px;
     background-image: url("../images/hero-image.jpg");
     background-size: 130%;
 }
@@ -53,6 +53,95 @@ p {
     color: white;
     font-size: 18px;
 }
+
+.main-cta {
+    margin-top: 20px;
+    width: 220px;
+    height: 60px;
+    font-size: 28px!important;
+
+}
+
+div#who {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2 {
+    color: #dc3545;
+    font-size: 28px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.classic-black {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+div#get-involved {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #F5F5F5;
+}
+
+h3 {
+    color: #dc3545;
+    font-size: 28px;
+    margin-bottom: 0px;
+}
+
+h4 {
+    color: #dc3545;
+    font-size: 18px;
+}
+
+#get-involved button {
+    margin-top: 20px;
+    width: 140px;
+    height: 38px;
+    font-size: 12px!important;
+    color: #dc3545!important;
+    border: solid #CCCCCC;
+    border-width: thin;
+}
+
+footer {
+    background-color: #dc3545;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+div#back-to-top {
+position: fixed;
+bottom: 20px;
+right: 20px;
+}
+
+.btn-top {
+    height: 35px;
+    width: 20px;
+
+}
+.btn-top svg {
+    fill: white;
+}
+
+.circle {
+    height: 36px;
+    width: 36px;
+    background-color: black;
+    border-radius: 1000%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
